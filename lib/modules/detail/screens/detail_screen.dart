@@ -102,7 +102,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           content: Text('Success delete : ${value.title}'),
                         );
                       },
-                    );
+                    ).then((value) => Get.back());
                   },
                 );
               },
