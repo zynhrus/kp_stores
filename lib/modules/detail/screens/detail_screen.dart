@@ -37,6 +37,12 @@ class _DetailScreenState extends State<DetailScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              const Text(
+                  "(In \'Fake Store API\' that nothing in real will update in the database when we delete and edit)",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  )),
+              const SizedBox(height: 10),
               ImagePlaceholder(
                 height: 200,
                 width: double.infinity,
