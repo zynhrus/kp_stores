@@ -38,7 +38,7 @@ class _DetailScreenState extends State<DetailScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                  "(In \'Fake Store API\' that nothing in real will update in the database when we delete and edit)",
+                  "(In 'Fake Store API' that nothing in real will update in the database when we delete and edit)",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   )),
@@ -98,7 +98,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       context: context,
                       builder: (BuildContext context) {
                         return AlertDialog(
-                          title: Text('Delete Success'),
+                          title: const Text('Delete Success'),
                           content: Text('Success delete : ${value.title}'),
                         );
                       },

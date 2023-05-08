@@ -15,8 +15,6 @@ class DetailController extends GetxController {
   Future<ProductModel> deleteProduct(int id) async {
     final deletedProduct = await productRepository.deleteProduct(id: id);
 
-    print(deletedProduct);
-
     return deletedProduct;
   }
 }

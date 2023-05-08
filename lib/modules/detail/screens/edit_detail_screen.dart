@@ -35,7 +35,7 @@ class _EditDetailScreenState extends State<EditDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Edit Product"),
+        title: const Text("Edit Product"),
       ),
       body: SingleChildScrollView(
         child: Padding(

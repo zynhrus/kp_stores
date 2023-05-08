@@ -25,7 +25,6 @@ class ProductRepository {
     );
 
     final product = ProductModel.fromJson(res.data as Map<String, dynamic>);
-    print(product.toJson());
 
     return product;
   }
